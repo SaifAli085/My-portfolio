@@ -1,0 +1,75 @@
+.services{
+    padding: 0rem 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 13rem;
+    margin-top: 9rem;
+
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.awesome>:nth-child(1){
+    color: var(--black);
+    font-weight: bold; 
+    font-size: 3rem;
+}
+.awesome>:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.awesome>:nth-child(3){
+    color: var(--gray);
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.3rem;
+}
+.s-button{
+    margin-top: 1.5rem;
+    width: 9rem;
+    height: 2rem;
+}
+
+.cards{
+    position: relative;
+    left: -8rem;
+}
+.cards>*{
+    position: absolute;
+}
+
+@media screen and (max-width: 480px){
+    .services{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 66rem;
+        padding: 0;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+    }
+    .cards>*{
+        position: static;
+    }
+    .awesome-s {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -12rem;
+        
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+        top: -12rem;
+        left: 1.5rem;
+    }
+}

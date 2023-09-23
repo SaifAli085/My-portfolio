@@ -1,0 +1,168 @@
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -20rem;
+    
+}
+.main-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -20rem;
+    
+}
+.certificate{
+    color: var(--orange);
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 4rem;
+    
+}
+.projects>span{
+    font-size: 1.7rem;
+
+}
+.projects>span> a{
+    font-size: 1.5rem;
+}
+.projects> span a:hover{
+    cursor: pointer;
+}
+
+.projects-1{
+    color: var(--black);
+    font-size: 4rem;
+    font-weight: bold;
+    top: 2rem;
+    position: relative;
+
+}
+.projects-2{
+    color: var(--orange);
+    font-size: 4.5rem;
+    font-weight: bold;
+    top: 2rem;
+    position: relative;
+
+}
+/* .portfolio> span:nth-child(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+
+} */
+
+/* .portfolio .swiper{
+    overflow: hidden!important;
+} */
+.portfolio-slider{
+    margin-top: 3rem;
+    width: 40rem;
+    
+}
+/* .portfolio-slider .swiper-slide{
+    width: 20rem;
+} */
+.portfolio-slider>*{
+    /* background-size: cover; */
+    /* width: 19rem; */
+
+    /* filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25)); */
+    
+    border-radius: 20px;
+}
+@media screen and (max-width: 480px){
+    .main{
+        
+        position: relative;
+        top: 0rem;
+        
+    }
+    .main-2{
+        
+        position: relative;
+        top: 0rem;
+        
+    }
+    .portfolio-slider{
+        width: 50rem;
+        transform: scale(0.3);
+        right: 0rem;
+        bottom: 8rem;
+
+    }
+    .projects span:nth-child(1) {
+        color: red;
+        font-size: 1rem;
+        font-weight: bold;
+        position: relative;
+        bottom: 20rem;
+    }
+    .projects span:nth-child(2) {
+        color: red;
+        font-size: 1rem;
+        font-weight: bold;
+        position: relative;
+        bottom: 20rem;
+    }
+    .projects span:nth-child(3) {
+        color: red;
+        font-size: 1rem;
+        font-weight: bold;
+        position: relative;
+        bottom: 20rem;
+    }
+    .certificate {
+        color: var(--orange);
+        font-size: 2rem;
+        font-weight: bold;
+        bottom: -5rem;
+        position: relative;
+    }
+    .projects-1{
+        font-size: 2rem;
+        top: -18rem;
+        
+    }
+    
+    .projects-2{
+        font-size: 2rem;
+        top: -18rem;
+    
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects span{
+        bottom: -3rem;
+        position: relative;
+        font-size: 1rem;
+    
+    }
+    
+    .projects span a{
+        font-size: 1rem;
+    
+    }
+    
+
+    
+}

@@ -1,0 +1,143 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.n-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.n-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.n-list{
+    flex: 10;
+}
+
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    list-style: none;
+    
+}
+.n-list>ul li:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.n-button{
+    flex: 2;
+}
+
+@media screen and (max-width: 480px){
+    .n-list{
+        display: none;
+    }
+    .n-button{
+        display: none;
+    }
+    .n-name {
+        font-size: 1.3rem;
+        font-weight: bold;
+        width: 5rem;
+    }
+}
+
+/* .contact-form{
+    padding: 0rem 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+}
+
+.c-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    bottom: -25rem;
+    position: relative;
+    left: 17rem;
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;
+}
+textarea{
+    height: 4rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+.awesome-c{
+    margin-top: 22rem;
+    left: 14rem;
+}
+.awesome-c>:nth-child(1){
+    font-size: 2.5rem;
+}
+.awesome-c>:nth-child(2){
+    font-size: 2.5rem;
+}
+.setting{
+    position: relative;
+    top: -5rem;
+}
+@media screen and (max-width: 480px){
+    .awesome-c{
+        top: -3rem;
+        width: 100%;
+        left: 1rem;
+
+    }
+    .awesome-c>:nth-child(1){
+        right: 2.5rem;
+        font-size: 2.5rem;
+        position: relative;
+        top: -3rem;
+    }
+    .awesome-c>:nth-child(2){
+        right: 2.5rem;
+        font-size: 2.5rem;
+        top: -8rem;
+        position: relative;
+
+    }
+    .c-right>form{
+        position: relative;
+        right: 16rem;
+        bottom: -7rem;
+
+    }
+    .c-right .user{
+        width: 15rem;
+    }
+    .btnEdit{
+        right: 1rem;
+        position: relative;
+
+    }
+    
+} */
